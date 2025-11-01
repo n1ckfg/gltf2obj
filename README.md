@@ -23,8 +23,8 @@ cd to draco folder.
 
 ```console <> for optional relase build setting
 $ mkdir build_dir && cd build_dir
-$ cmake .. <-DCMAKE_BUILD_TYPE=Release>
-$ cmake --build . <--config Release>
+$ cmake .. -DCMAKE_BUILD_TYPE=Release
+$ cmake --build . --config Release
 ```
 
 Then go to gltf2obj folder
@@ -32,8 +32,8 @@ Then go to gltf2obj folder
 
 ```console
 $ mkdir build_dir && cd build_dir
-$ cmake .. <-DCMAKE_BUILD_TYPE=Release>
-$ cmake --build . <--config Release>
+$ cmake .. -DCMAKE_BUILD_TYPE=Release
+$ cmake --build . --config Release
 ```
 
 ## Build for Windows ##
